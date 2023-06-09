@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <script>ageVerification()</script>
 </head>
 <body>
     <header>
@@ -15,17 +17,24 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="secret.html">Secret Page (shh!)</a>
             </ul>
         </nav>
     </header>
     <main>
-        <p id="introMessage"></p>
+        <p>
+            Hello, 
+            <script>
+                enterName();
+            </script>
+            !
+        </p>
         <p>My name is Joe and I have recently started learning how to code! I'm using Git with VSC on Windows through an Ubuntu terminal which I'm still in the process of wrapping my head around. I'm creating this site to begin testing out Javascript, so a lot will be placeholder.</p>
         <img class="mainImage" src="https://preview.redd.it/j1k1nu5ga9341.jpg?auto=webp&s=0c5cd4150f42b5182e26bec1dea4ac96f2941f66" alt="An awesome cabbit">
+        <p><script>pets()</script></p>
     </main>
     <footer>
         <p>&#169; Rowdy Boys 2023</p>
     </footer>
 </body>
-<script src="app.js"></script>
 </html>
